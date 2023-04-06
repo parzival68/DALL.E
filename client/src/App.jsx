@@ -1,6 +1,5 @@
 // Type rafce for the below code 
 
-// import Image from "react/image
 import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
@@ -12,11 +11,7 @@ const App = () => {
     <BrowserRouter>
       <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
         <Link to="/">
-          <image src='https://links.papareact.com/4t3' alt="logo" height={30} width={30}  />
-            <div>
-            <h1 className="font-bold"><span className="text-violet-500">AI</span> Image Generator</h1>
-            <h2 className="text-xs">Powered by DALL.E 2</h2>
-        </div>
+          <image src={logo} className="w-28 object-contain" />   
         </Link>
         <Link to="/create-post" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md">Create</Link>
       </header>
