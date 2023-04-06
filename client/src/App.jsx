@@ -11,7 +11,7 @@ const App = () => {
     <BrowserRouter>
       <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
         <Link to="/">
-          <image src={logo} className="w-28 object-contain" />
+          <img src={logo} className="w-28 object-contain" />
            <div>
             <h1 className="font-bold"><span className="text-violet-500">AI</span> Image Generator</h1>
             <h2 className="text-xs">Powered by DALL.E 2</h2>
