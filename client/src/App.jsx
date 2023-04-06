@@ -1,6 +1,6 @@
 // Type rafce for the below code 
 
-import Image from "next/image
+import Image from "react/image
 import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
